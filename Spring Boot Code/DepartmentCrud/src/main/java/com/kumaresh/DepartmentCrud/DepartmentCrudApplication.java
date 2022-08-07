@@ -1,0 +1,15 @@
+package com.kumaresh.DepartmentCrud;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan(basePackages = {"com.kumaresh.DepartmentCrud"})
+public class DepartmentCrudApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DepartmentCrudApplication.class, args);
+	}
+
+}
